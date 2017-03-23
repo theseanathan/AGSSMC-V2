@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	min-width: 1400px;
+	background-color: #B6CBC8;
+	position: relative;
+	font-family: 'Open Sans Condensed';
+}
+
+.topbar{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+}
+
+#home-button{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 0; bottom: 0;
+	margin: auto;
+	margin-left: 20px;
+}
+
+#tbSpacer{
+	height: 60px;
+	width: 100%;
+}
+
+.title-box{
+	width: 100%;
+	height: 400px;
+	background-color: #11FFF7;
+	background-size: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+#title{
+	width: 60vw;
+	height: 200px;
+	top: 10px; left: 0; bottom: 0; right: 0;
+	position: relative;
+	margin: auto;
+
+	text-align: center;
+	font-size: 140px;
+	font-weight: 600;
+	color: #0496FF;
+	/*text-shadow:
+       2px 2px 0 white,
+     -1px -1px 0 white,  
+      1px -1px 0 white,
+      -1px 1px 0 white,
+       1px 1px 0 white;*/
+}
+
+#titleBoxSpacer{
+	height: 400px;
+	width: 100%;
+}
+
+.team-page{
+	width: 100%;
+	height: 3400px;
+	background-color: #0496FF;
+}
+
+.content{
+	width: 1000px;
+	position: absolute;
+	left: 0; right: 0;
+	margin: auto;
+}
+
+.group{
+	height: 292px;
+	margin-top: 50px;
+}
+
+#group-photo{
+	width: 500px;
+	position: absolute;
+	left: 0;
+}
+
+#ind-title{
+	font-size: 24px;
+	text-align: center;
+	color: white;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-weight: 600;
+}
+
+.president{
+	height: 400px;
+	margin-top: 350px;
+}
+
+#president-img{
+	right: 0;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background-image: url("ind-img.jpg");
+	background-size: 100%;
+	transition: opacity 0.5s ease;
+}
+
+#president-message{
+	width: 480px;
+	font-size: 60px;
+	text-align: right;
+	position: relative;
+	top: 60px;
+	color: white;
+}
+
+.board{
+	width: 1260px;
+	margin-top: 900px;
+	height: 2000px;
+}
+
+.board-boxes{
+	padding: 0;
+	list-style: none;
+
+	width: 100%;
+	height: 100%;
+}
+
+.board-boxes li{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.ind-box{
+	background-color: #11FFF7;
+	padding: 5px;
+	width: 400px;
+	height: 360px;
+	color: #0496FF;
+	font-size: 20px;
+}
+
+#box-title{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
